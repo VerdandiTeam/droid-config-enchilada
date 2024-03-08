@@ -23,10 +23,6 @@ Requires: nemo-qml-plugin-systemsettings
 Requires: droid-biometry-fp
 Requires: sailfish-fpd-community
 
-# fix audioflinger
-Requires: audioflingerglue
-Requires: pulseaudio-modules-droid-glue
-
 # Hybris packages
 Requires: libhybris-libEGL
 Requires: libhybris-libGLESv2
