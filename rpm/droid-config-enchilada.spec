@@ -15,3 +15,5 @@ Provides: usb-moded-configs
 Obsoletes: usb-moded-defaults
 
 %include droid-configs-device/droid-configs.inc
+%include patterns/patterns-sailfish-device-adaptation-enchilada.inc
+%include patterns/patterns-sailfish-device-configuration-enchilada.inc

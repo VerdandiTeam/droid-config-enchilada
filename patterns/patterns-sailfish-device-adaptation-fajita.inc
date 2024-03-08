@@ -1,0 +1,1 @@
+patterns-sailfish-device-adaptation-enchilada.inc
