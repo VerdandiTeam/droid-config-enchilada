@@ -48,7 +48,7 @@ Requires: qt5-feedback-haptics-native-vibrator
 # Needed for /dev/touchscreen symlink
 Requires: qt5-plugin-generic-evdev
 
-Requires: pulseaudio-modules-droid
+Requires: pulseaudio-modules-droid-jb2q
 # for call audio
 Requires: pulseaudio-modules-droid-hidl
 # for audio recording to work:
