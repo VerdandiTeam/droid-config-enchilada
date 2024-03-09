@@ -3,6 +3,7 @@ Summary: Jolla HW Adaptation enchilada
 Requires: droid-hal-enchilada
 Requires: droid-hal-enchilada-detritus
 Requires: droid-hal-enchilada-img-boot
+Requires: droid-hal-enchilada-kernel
 Requires: droid-hal-enchilada-kernel-modules
 Requires: droid-config-enchilada-sailfish
 Requires: droid-config-enchilada-pulseaudio-settings

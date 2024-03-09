@@ -3,6 +3,7 @@ Summary: Jolla HW Adaptation fajita
 Requires: droid-hal-fajita
 Requires: droid-hal-fajita-detritus
 Requires: droid-hal-fajita-img-boot
+Requires: droid-hal-fajita-kernel
 Requires: droid-hal-fajita-kernel-modules
 Requires: droid-config-fajita-sailfish
 Requires: droid-config-fajita-pulseaudio-settings
