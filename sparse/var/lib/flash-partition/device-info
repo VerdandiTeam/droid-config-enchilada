@@ -1,0 +1,8 @@
+CPUCHECK_STRING="Qualcomm Technologies, Inc SDM845"
+
+PART_1="boot_a"
+PART_REAL_1="sde11"
+
+PART_2="boot_b"
+PART_REAL_2="sde39"
+PART_I="1 2"
