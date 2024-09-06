@@ -104,6 +104,9 @@ Requires: bluebinder
 Requires: nfcd-binder-plugin
 Requires: jolla-settings-system-nfc
 
+# byebye sailjail
+Requires: dummy-sailjail
+
 %description -n patterns-sailfish-device-adaptation-enchilada
 Pattern with packages for enchilada HW Adaptation
 
