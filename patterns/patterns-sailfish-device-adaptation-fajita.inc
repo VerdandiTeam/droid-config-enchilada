@@ -104,9 +104,6 @@ Requires: bluebinder
 Requires: nfcd-binder-plugin
 Requires: jolla-settings-system-nfc
 
-# byebye sailjail
-Requires: dummy-sailjail
-
 %description -n patterns-sailfish-device-adaptation-fajita
 Pattern with packages for fajita HW Adaptation
 

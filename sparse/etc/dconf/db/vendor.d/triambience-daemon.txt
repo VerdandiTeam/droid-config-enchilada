@@ -1,0 +1,3 @@
+[apps/onyxtristate]
+sliderDevice='/dev/input/event6'
+sliderCodes=[0x25b, 0x25a, 0x259]
