@@ -1,0 +1,11 @@
+[Unit]
+Description=Own the gestures
+After=droid-hal-init.service
+
+[Service]
+Type=simple
+ExecStartPre=/usr/bin/sleep 3
+ExecStart=/usr/bin/droid/gestures-chown.sh
+
+[Install]
+WantedBy=graphical.target actdead.target

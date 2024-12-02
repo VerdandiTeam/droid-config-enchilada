@@ -1,1 +1,0 @@
-KERNEL=="event2", SUBSYSTEM=="input", ATTRS{name}=="synaptics,s3320", ACTION=="add", SYMLINK+="touchscreen"
