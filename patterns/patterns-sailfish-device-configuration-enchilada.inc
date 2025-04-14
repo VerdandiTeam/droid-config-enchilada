@@ -36,6 +36,7 @@ Requires: mapplauncherd-booster-silica-qt5-media
 Recommends: harbour-storeman
 Recommends: sailfishos-chum-gui
 Recommends: punky 
+Recommends: verdandiupdater-sfos
 
 %description -n patterns-sailfish-device-configuration-enchilada
 Pattern with packages for enchilada configurations
