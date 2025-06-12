@@ -1,3 +1,7 @@
 [desktop/sailfish/silica]
 rounded_corners = [[60, 60, 60], [-60, 60, 60], [60, -60, 60], [-60, -60, 60]]
 cutouts = [[320, 0, 80, 70]]
+
+[desktop/lipstick-jolla-home/peekfilter]
+boundaryWidth=100
+boundaryHeight=100
