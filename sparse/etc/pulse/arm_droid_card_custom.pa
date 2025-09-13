@@ -1,2 +1,0 @@
-load-module module-udev-detect
-load-module module-droid-card rate=48000
