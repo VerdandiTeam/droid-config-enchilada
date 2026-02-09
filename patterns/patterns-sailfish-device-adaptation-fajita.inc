@@ -31,7 +31,7 @@ Requires: libhybris-libwayland-egl
 
 # Telephony
 Requires: ofono-binder-plugin
-Requires: ofono-binder-plugin-qti-ext
+Requires: ofono-binder-plugin-ext-qti
 
 # Flashlight
 Requires: jolla-settings-system-flashlight
