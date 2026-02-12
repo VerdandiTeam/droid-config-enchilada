@@ -64,4 +64,6 @@ service vold vold_HYBRIS_DISABLED
 service wificond wificond_HYBRIS_DISABLED
     disabled
     override
-
+service fingerprint-inscreen-1-0 fingerprint_HYBRIS_DISABLED
+    disabled
+    override
