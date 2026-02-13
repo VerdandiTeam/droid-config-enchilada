@@ -1,0 +1,13 @@
+[Unit]
+Description=Device Encryption Config Setup
+Before=sailfish-device-encryption-community-wizard.service
+ConditionPathExists=!/etc/sailfish-device-encryption-community/devices.ini
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/bash /usr/bin/droid/encryption-config-setup.sh
+Restart=no
+
+[Install]
+RequiredBy=late-mount-pre.target
