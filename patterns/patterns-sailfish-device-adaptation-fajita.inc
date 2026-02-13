@@ -91,6 +91,9 @@ Requires: rfkill
 # enable device lock (and FP)
 Requires: sailfish-devicelock-fpd
 
+# Home encryption
+Requires: sailfish-device-encryption-community
+
 # For GPS
 Requires: geoclue-provider-hybris
 
