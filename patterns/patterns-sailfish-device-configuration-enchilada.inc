@@ -38,6 +38,17 @@ Recommends: sailfishos-chum-gui
 Recommends: punky 
 Recommends: verdandiupdater-sfos
 
+# Remove busybox
+Requires: gnu-bash
+Requires: gnu-coreutils
+Requires: gnu-diffutils
+Requires: gnu-findutils
+Requires: gnu-grep
+Requires: gnu-gzip
+Requires: gnu-sed
+Requires: gnu-tar
+Requires: gnu-which
+
 %description -n patterns-sailfish-device-configuration-enchilada
 Pattern with packages for enchilada configurations
 
