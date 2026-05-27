@@ -1,0 +1,5 @@
+AUTHOR=mister_magister
+EMAIL=mister0magister@gmail.com
+BROKEN=VoLTE sometimes doesnt work
+FEATURES=AMOLED screen,Snapdragon 845
+DEVICE=6
