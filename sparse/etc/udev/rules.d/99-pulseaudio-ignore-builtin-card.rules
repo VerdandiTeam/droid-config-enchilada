@@ -1,0 +1,1 @@
+KERNEL=="card0", SUBSYSTEM=="sound", ATTR{id}=="sdm845tavilsndc", ENV{PULSE_IGNORE}="1"
