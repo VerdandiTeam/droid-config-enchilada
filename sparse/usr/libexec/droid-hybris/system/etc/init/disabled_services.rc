@@ -67,3 +67,6 @@ service wificond wificond_HYBRIS_DISABLED
 service fingerprint-inscreen-1-0 fingerprint_HYBRIS_DISABLED
     disabled
     override
+service chre /vendor/bin/chre_HYBRIS_DISABLED
+    disabled
+    override
