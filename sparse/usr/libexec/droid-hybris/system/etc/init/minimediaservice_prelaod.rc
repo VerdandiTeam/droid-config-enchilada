@@ -1,0 +1,7 @@
+service minimedia /usr/libexec/droid-hybris/system/bin/minimediaservice
+    class main
+    user media
+    group audio camera
+    ioprio rt 4
+    setenv LD_PRELOAD /usr/libexec/droid-hybris/system/lib/libcameraservice.so
+    override
