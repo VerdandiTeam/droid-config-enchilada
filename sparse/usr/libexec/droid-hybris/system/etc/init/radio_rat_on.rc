@@ -1,0 +1,2 @@
+on early-boot
+    setprop persist.vendor.radio.rat_on default
