@@ -5,3 +5,6 @@ cutouts = [[320, 0, 80, 70]]
 [desktop/lipstick-jolla-home/peekfilter]
 boundaryWidth=100
 boundaryHeight=100
+
+[desktop/jolla]
+reboot_action_enabled=true
