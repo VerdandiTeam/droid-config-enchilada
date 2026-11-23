@@ -1,0 +1,1 @@
+{"name":"fajita-fingerprint-circle","display_name":"Fingerprint circle (lock screen + enrollment)","description":"Green under-display fingerprint circle on the lock screen and the fingerprint enrollment page (OnePlus 6T). Lock screen part based on b100dian's lockscreen touchArea patch.","category":"homescreen","version":"1.0.0","maintainer":"b100dian","compatible":["5.0.0.0"]}

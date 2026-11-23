@@ -1,0 +1,65 @@
+--- /usr/share/lipstick-jolla-home-qt5/lockscreen/LockScreen.qml
++++ /usr/share/lipstick-jolla-home-qt5/lockscreen/LockScreen.qml
+@@ -50,6 +50,13 @@
+ 
+             onInteractionExpectedChanged: lipstickSettings.setInteractionExpected(interactionExpected)
+ 
++       Rectangle {
++               id: dimmer
++               anchors.fill: parent
++               opacity: 0
++               color: 'black'
++       }
++
+             Latch {
+                 id: systemStarted
+ 
+@@ -605,6 +612,25 @@
+ 
+                             Binding { target: lockItem.mpris.item; property: "enabled"; value: !lockScreen.lowPowerMode }
+                         }
++    Rectangle {
++        id: touchArea
++        visible: deviceLockItem.locked
++        border.width: 1
++        border.color:"#00ff00"
++        MultiPointTouchArea {
++                anchors.fill: parent
++                mouseEnabled: true
++                onPressed: { touchArea.color = "#00ff00"; dimmer.opacity = 0.9; }
++                onReleased: { dimmer.opacity = 0; }
++                onCanceled: { dimmer.opacity = 0; }
++        }
++        x: 445
++        y: 1955
++        width: 190
++        height: 190
++        radius: 95
++        color: "#00ff00"
++    }
+                     },
+ 
+                     PannableItem {
+
+--- /usr/lib64/qt5/qml/com/jolla/settings/system/FingerEnrollmentProgressPage.qml
++++ /usr/lib64/qt5/qml/com/jolla/settings/system/FingerEnrollmentProgressPage.qml
+@@ -200,4 +200,19 @@
+             }
+ "
+     }
++
++    // Under-display fingerprint sensor (OnePlus 6T): the optical sensor
++    // needs green light under the finger, so draw it while enrolling.
++    Rectangle {
++        id: udfpsCircle
++        parent: page
++        z: 1000
++        x: 445
++        y: 1955
++        width: 190
++        height: 190
++        radius: 95
++        color: "#00ff00"
++        visible: page.isPortrait && page.settings.acquiring && !page._finished
++    }
+ }
