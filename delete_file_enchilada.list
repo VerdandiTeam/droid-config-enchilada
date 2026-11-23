@@ -1,3 +1,5 @@
 # Under-display fingerprint circle: OnePlus 6T only, the OnePlus 6 has a
-# rear fingerprint sensor.
-/usr/share/patchmanager/patches/fajita-fingerprint-circle/
+# rear fingerprint sensor. One file per line: each line is used both as a
+# grep -E pattern and as an rm -f path, so no directories.
+/usr/share/patchmanager/patches/fajita-fingerprint-circle/patch.json
+/usr/share/patchmanager/patches/fajita-fingerprint-circle/unified_diff.patch
